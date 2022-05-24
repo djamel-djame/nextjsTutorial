@@ -12,6 +12,10 @@ export async function getStaticProps() {
   }
 }
 
+// export async function getServerSideProps(context) {
+//   const Data = await fetch("")
+// }
+
 export default function Home({allPostsData}) {
   return (
     <div className="container">
